@@ -1,7 +1,7 @@
 # node-servephp
 
 ```
-npm install node-servephp
+npm install nodeservephp
 ```
 
 ## Description
@@ -11,7 +11,7 @@ npm install node-servephp
    Module fastcgi-client. It just works like nginx for php or
    Wamp/xamp (apache) for php. Currently tested only on windows.
 
-   Node-servephp is basically build using ìfastcgi-clientî module, where
+   Node-servephp is basically build using ‚Äúfastcgi-client‚Äù module, where
    Fastcgi-client module helps to communicate with phpfpm.
    Node-servephp is designed to provide friendlier environment for
    End users to build their php website using event driven server.
@@ -29,15 +29,15 @@ npm install node-servephp
 
 ## Usage
 
-1. Install node-servephp using ìnpm install node-servephpî also
+1. Install node-servephp using ‚Äúnpm install node-servephp‚Äù also
 Install its dependency fastcgi-client using 
-ìnpm install fastcgi-clientî.
+‚Äúnpm install fastcgi-client‚Äù.
 
-2. Install phpfpm. Latest versions of php contains phpfpm in itself, so download php from ìhttp://windows.php.net/download/î.
+2. Install phpfpm. Latest versions of php contains phpfpm in itself, so download php from ‚Äúhttp://windows.php.net/download/‚Äù.
 
-3. Through command prompt go to the php folder and execute the command ìphp-cgi.exe ñb 127.0.0.1:9000î.This command runs phpfpm at port 9000;
+3. Through command prompt go to the php folder and execute the command ‚Äúphp-cgi.exe ‚Äìb 127.0.0.1:9000‚Äù.This command runs phpfpm at port 9000;
 
-4. Through another command prompt go to node-servephp folder and run ìnode server.js 127.0.0.1 80î. Here 80 is port number. This will start the server.
+4. Through another command prompt go to node-servephp folder and run ‚Äúnode server.js 127.0.0.1 80‚Äù. Here 80 is port number. This will start the server.
 
 5. As like wamp, xamp all php and html files are stored in www folder, node-servephp also contains www folder to store all php and html files. 
 
